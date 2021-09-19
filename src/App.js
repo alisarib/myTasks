@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <h4>This page is developed by Ali Sarib</h4>
+      <h1> I used React Hooks in this project</h1>
       <Tasks  tasks={tasks} setTasks={setTasks} />
     </div>
   );
