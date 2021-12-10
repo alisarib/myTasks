@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Tasks from "./Tasks";
+import LandingPage from "./landingPage";
 import React, { useState } from 'react';
 import './App.css';
 
@@ -10,9 +11,8 @@ function App() {
   ]);
   return (
     <div className="App">
-      <h4>This page is developed by Ali Sarib</h4>
-      <h1> I used React Hooks in this project</h1>
-      <Tasks  tasks={tasks} setTasks={setTasks} />
+      <LandingPage  tasks={tasks} setTasks={setTasks} />
+      {/* <Tasks  tasks={tasks} setTasks={setTasks} /> */}
     </div>
   );
 }
